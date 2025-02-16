@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n      INSERT INTO metric_definitions (metric_id, name_key,\n      description_key, category)\n      VALUES (?, ?, ?, ?)\n      ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 4
+    },
+    "nullable": []
+  },
+  "hash": "2015517003a261f88b602f44b96ac50c57c47dae012f33654786104741a9b9b7"
+}

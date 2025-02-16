@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n      INSERT INTO metric_values (entity_id, entity_type,\n      metric_id, value1, value2, value3, period_start)\n      VALUES (?, ?, ?, ?, ?, ?, ?)\n      ON CONFLICT (entity_id, entity_type, metric_id)\n      DO UPDATE SET value1 = ?, value2 = ?, value3 =?,\n      period_start = ?\n      ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 11
+    },
+    "nullable": []
+  },
+  "hash": "db2f5e28252247f94a12ae1db0083c958def333076f666b2c3e5634e61b334e1"
+}
