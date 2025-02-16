@@ -1,0 +1,20 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT type_id FROM entity_types",
+  "describe": {
+    "columns": [
+      {
+        "name": "type_id",
+        "ordinal": 0,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      true
+    ]
+  },
+  "hash": "df2c43e5cd919fe3805b3ae38c005ca0e463ae19bfba27a33a52417a908cf31b"
+}
