@@ -1,5 +1,5 @@
 [package]
-name = "communication_tool_analysis"
+name = "teampo"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,4 +10,5 @@ serde = { version = "1.0.217", features = ["derive"] }
 serde_json = "1.0.138"
 sqlx = { version = "0.8.3", features = ["runtime-tokio", "sqlite", "tls-native-tls", "chrono"] }
 tokio = { version = "1.43.0", features = ["full"] }
-tungstenite = "0.26.1"
+tokio-tungstenite = "0.26.1"
+url = "2.5.4"
